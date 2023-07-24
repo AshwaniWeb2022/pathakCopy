@@ -1,0 +1,47 @@
+/* ============subpageHeader ========== */
+.wrap-right-contain{
+    font-size: 15px;
+    text-align: right;
+    padding-right: 30px;
+}
+/* ============subpageHeader ENd ========== */
+
+/* bootstrap 5 */
+.ps-6{
+    padding-left: 10%;
+}
+.ps-7{
+    padding-left: 15%;
+}
+.ps-8{
+    padding-left: 20%;
+}
+/* bootstrap 5 */
+
+
+/* Client Project */
+#counterbackgroungimg {
+    background-image: url(../images/aboutImage/parallax-1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+   }
+   .wrap-counter {
+       font-size: 60px;
+       font-weight: bold;
+   }
+   .wrap-text {
+       font-size: 15px;
+   }
+ /* Client Project */
+
+ /* team section  */
+.team-wrap{
+    padding: 20px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 24px -10px rgba(1,161,224,1);
+    -moz-box-shadow: 0px 0px 24px -10px rgba(1,161,224,1);
+    box-shadow: 0px 0px 24px -10px rgba(1,161,224,1);
+text-align: center;
+border-radius: 5px;
+}
+/* team section  */

@@ -1,0 +1,28 @@
+/* icon  */
+#icon {
+    font-size: 45px;
+    color: var(--primeary-color);
+}
+.tel-text{
+    font-size: 12px;
+}
+
+/* icon  */
+
+/* form design  */
+.contactForm {
+    padding: 30px 10px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    
+}
+
+.contactForm h2 {
+    color: var(--primeary-color);
+    
+}
+
+/* form design  */
