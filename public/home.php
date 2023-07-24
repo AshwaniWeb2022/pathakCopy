@@ -294,7 +294,7 @@ include 'header.php';
 <!-- CONTACT SECTION ENd  -->
 
 <!-- our clients section  -->
-<!-- <section class="mt-5">
+<section class="mt-5">
     <div class="container">
         <div class="titel ">
             <h2>All Vendor</h2>
@@ -305,42 +305,42 @@ include 'header.php';
         <div class="owl-carousel owl-theme " id="AllClients">
             <div class="item">
                 <div class="client">
-                    <img src="/image/partner-1-color.png" alt="Clients">
+                    <img src="../client//vandor/62a7b3137351561.Y3JvcCwxMDA4LDc4OSwxNyww.jpg" alt="Clients">
                 </div>
             </div>
             <div class="item">
                 <div class="client">
-                    <img src="/image/partner-1-color.png" alt="Clients">
+                    <img src="../client//vandor/acc-cement-limited-logo-tagline.webp" alt="Clients">
                 </div>
             </div>
             <div class="item">
                 <div class="client">
-                    <img src="/image/partner-1-color.png" alt="Clients">
+                    <img src="../client//vandor/Astral pipes.png" alt="Clients">
                 </div>
             </div>
             <div class="item">
                 <div class="client">
-                    <img src="/image/partner-1-color.png" alt="Clients">
+                    <img src="../client//vandor/download (2).jpg" alt="Clients">
                 </div>
             </div>
             <div class="item">
                 <div class="client">
-                    <img src="/image/partner-1-color.png" alt="Clients">
+                    <img src="../client//vandor/download (3).png" alt="Clients">
                 </div>
             </div>
             <div class="item">
                 <div class="client">
-                    <img src="/image/partner-1-color.png" alt="Clients">
+                    <img src="../client//vandor/ebco.png" alt="Clients">
                 </div>
             </div>
             <div class="item">
                 <div class="client">
-                    <img src="/image/partner-1-color.png" alt="Clients">
+                    <img src="../client//vandor/Havells.jpg" alt="Clients">
                 </div>
             </div>
         </div>
     </div>
-</section> -->
+</section>
 <!-- our clients section  -->
 
 <!-- footer setion  -->
