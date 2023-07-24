@@ -93,8 +93,8 @@ include 'header.php';
                 </div>
             </div>
             <div class="col-lg-8">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.642095574812!2d77.11199037532555!3d28.610511985080585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0347b8c4a1cd%3A0xbd09acbab1b552a8!2sDelhi%20Cantt%20Railway%20Station!5e0!3m2!1sen!2sin!4v1683194007808!5m2!1sen!2sin"
+            <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d55912.47966818915!2d78.7247221!3d28.8528504!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390afbed2cba2191%3A0x628dfbbd8b742c65!2sSai%20Mandir!5e0!3m2!1sen!2sin!4v1690203703635!5m2!1sen!2sin"
                     class="w-100 h-100" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
