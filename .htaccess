@@ -1,2 +1,2 @@
-DirectoryIndex public index.php
+DirectoryIndex public home.php
 ErrorDocument 404 /404.html
