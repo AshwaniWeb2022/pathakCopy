@@ -14,10 +14,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Send email
     if (mail($to, $subject, $body, $headers)) {
         echo 'echo "<script>alert(\'Thank you for your message. We\'ll get back to you soon!\');</script>"';
-        echo 'window.location.href = "contact";</script>';
+        echo 'window.location.href = "contact.php";</script>';
     } else {
         echo 'echo "<script>alert(\'Failed to send email. Please try again later.\');</script>"';
-        echo 'window.location.href = "contact";</script>';
+        echo 'window.location.href = "contact.php";</script>';
     }
 }
 ?>
