@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="logo mb-3">
-                    <a href="../public/index.html" rel="home">
+                    <a href="home" rel="home">
                         <img src="../client/images/webSiteLogo/pathakLogoFooter.png" alt="LOGO" id="logo">
                     </a>
                 </div>
@@ -48,10 +48,10 @@
         </div>
         <div class="footerMenuLInks">
             <ul>
-                <li><a href="../public/index.php" rel="HOME">HOME</a></li>
-                <li><a href="../public/aboutUs.php" rel="ABOUT">ABOUT US</a></li>
-                <li><a href="../public/services.php" rel="SERVICES">SERVICES</a></li>
-                <li><a href="../public/contact.php" rel="CONTACT">CONTACT</a></li>
+                <li><a href="home" rel="HOME">HOME</a></li>
+                <li><a href="AboutUS" rel="ABOUT">ABOUT US</a></li>
+                <li><a href="Services" rel="SERVICES">SERVICES</a></li>
+                <li><a href="contact" rel="CONTACT">CONTACT</a></li>
             </ul>
         </div>
     </div>

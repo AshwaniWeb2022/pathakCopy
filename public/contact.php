@@ -82,11 +82,11 @@ include 'header.php';
             <div class="col-lg-4">
                 <div class="contactForm">
                     <h2 class="mb-4">Let's get in touch</h2>
-                    <form action="#!" method="post" autocomplete="off">
-                        <input type="text" placeholder="Name" class="form-control mb-2 " id="name" required>
-                        <input type="mail" placeholder="Email" class="form-control mb-2 " id="name" required>
-                        <input type="tel" placeholder="Phone No." class="form-control mb-2 " id="name" required>
-                        <textarea name="" id="" rows="5" class="w-100 form-control mb-2" placeholder="Description"
+                    <form action="send_email.php" method="post" autocomplete="off">
+                        <input type="text" placeholder="Name" name="name" class="form-control mb-2 " id="name" required>
+                        <input type="mail" placeholder="Email" name="email" class="form-control mb-2 " id="name" required>
+                        <input type="tel" placeholder="Phone No." name="phone" class="form-control mb-2 " id="name" required>
+                        <textarea name="message" id="" rows="5" class="w-100 form-control mb-2" placeholder="Description"
                             required></textarea>
                         <input type="submit" class="form-control mb-2 btn btn-primary" id="name">
                     </form>

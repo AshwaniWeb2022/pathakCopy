@@ -68,7 +68,7 @@ include 'header.php';
             </div>
         </div>
         <div class="elm-button text-center">
-            <a href="/public/aboutUs.html" class="themesflat-button bg-accent">
+            <a href="AboutUS" class="themesflat-button bg-accent">
                 About us
             </a>
         </div>
@@ -102,7 +102,7 @@ include 'header.php';
                 <div class="safety"><span class="check-icon"><i class='bx bx-check'></i></span>
                     <span>Implementing appropriate safety precautions and procedures</span></div>
                 <div class="elm-button mt-3">
-                    <a href="/public/contact.html" class="get-in-touch">
+                    <a href="contact" class="get-in-touch">
                         get in touch
                     </a>
                 </div>
