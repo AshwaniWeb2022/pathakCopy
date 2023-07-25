@@ -115,11 +115,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     <?php
 // Display success message if the form is successfully submitted
 if ($successMessage !== "") {
-    echo "<p>$successMessage</p>";
+    echo '<p style="color: red; text-align:center;">$successMessage</p>';
 }
 ?>
-                    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" autocomplete="off">
-                        <input type="text" placeholder="Name" name="name" class="form-control mb-2 " id="name" required>
+                    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"  method="POST" autocomplete="off">
+                        <input type="text" placeholder="Name" name="name"  class="form-control mb-2 " id="name" required>
                         <input type="mail" placeholder="Email" name="email" class="form-control mb-2 " id="name" required>
                         <input type="tel" placeholder="Phone No." name="phone" class="form-control mb-2 " id="name" required>
                         <textarea name="message" id="" rows="5" class="w-100 form-control mb-2" placeholder="Description"
