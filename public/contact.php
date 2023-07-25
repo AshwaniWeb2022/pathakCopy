@@ -76,12 +76,6 @@ include 'header.php';
 </section>
 <!-- CONTACT -->
 <!-- contact form  -->
-<style>
-    .successMessage{
-        color: red;
-        text-align: center;
-    }
-</style>
 <?php
 // Define variables to store form data
 $name = $email = $message = "";
@@ -118,10 +112,15 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <div class="col-lg-4">
                 <div class="contactForm">
                     <h2 class="mb-4">Let's get in touch</h2>
+                    <style>
+                        center{
+                            color: red;
+                        }
+                    </style>
                     <?php
 // Display success message if the form is successfully submitted
 if ($successMessage !== "") {
-    echo "<p>$successMessage</p>";
+    echo "<center>$successMessage</center>";
 }
 ?>
                     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"  method="POST" autocomplete="off">
