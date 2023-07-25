@@ -97,7 +97,7 @@
     <header>
         <div class="header-left">
             <div class="logo">
-                <a href="../public/home.php" rel="home">
+                <a href="home" rel="home">
                     <img src="../client/images/webSiteLogo/pathakLogo.png" alt="Logo">
                 </a>
             </div>
@@ -106,16 +106,16 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="../public/home.php" rel="HOME">HOME</a>
+                        <a href="home" rel="HOME">HOME</a>
                     </li>
                     <li>
-                        <a href="../public/AboutUS.php" rel="ABOUT">ABOUT US</a>
+                        <a href="AboutUS" rel="ABOUT">ABOUT US</a>
                     </li>
                     <li>
-                        <a href="../public/Services.php" rel="SERVICES">SERVICES</a>
+                        <a href="Services" rel="SERVICES">SERVICES</a>
                     </li>
                     <li>
-                        <a href="../public/contact.php" rel="CONTACT">CONTACT</a>
+                        <a href="contact" rel="CONTACT">CONTACT</a>
                     </li>
                 </ul>
             </nav>
