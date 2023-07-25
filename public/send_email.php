@@ -9,13 +9,15 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $to = "ashwani.kumar@codmsoftware.com"; // Replace with the recipient's email address
     $subject = "Contact Form from website ";
     $headers = "From: $name";
-    $body = "Name: $name\n\nEmail: $email\n\n Phone no: $phone\n\nMessage:\n$message";
+    $body = "Name: $name\n\n Email: $email\n\n Phone no: $phone\n\n Message: $message";
 
     // Send email
     if (mail($to, $subject, $body, $headers)) {
-        echo "Thank you for your message. We'll get back to you soon!";
+        echo 'echo "<script>alert(\'Thank you for your message. We\'ll get back to you soon!\');</script>"';
+        echo 'window.location.href = "contact";</script>';
     } else {
-        echo "Failed to send email. Please try again later.";
+        echo 'echo "<script>alert(\'Failed to send email. Please try again later.\');</script>"';
+        echo 'window.location.href = "contact";</script>';
     }
 }
 ?>
