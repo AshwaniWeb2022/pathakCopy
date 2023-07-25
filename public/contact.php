@@ -76,13 +76,49 @@ include 'header.php';
 </section>
 <!-- CONTACT -->
 <!-- contact form  -->
+<?php
+// Define variables to store form data
+$name = $email = $message = "";
+$successMessage = "";
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $name = $_POST["name"];
+    $email = $_POST["email"];
+    $phone = $_POST["phone"];
+    $message = $_POST["message"];
+
+    // Construct email content
+    $to = "ashwani.kumar@codmsoftware.com"; // Replace with the recipient's email address
+    $subject = "Contact Form from website ";
+    $headers = "From: $name";
+    $body = "Name: $name\n\n Email: $email\n\n Phone no: $phone\n\n Message: $message";
+
+
+    if (empty($name) || empty($email) || empty($phone) ||  empty($message)) {
+        echo "All fields are required.";
+    } else {
+        // Send the email using the mail() function
+        if (mail($to, $subject, $body, $headers)) {
+            $successMessage = "Thank you for your message, $name! We'll get back to you soon.";
+        } else {
+            echo "Error: Unable to send the email. Please try again later.";
+        }
+    }
+}
+?>
 <section class="mt-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
                 <div class="contactForm">
                     <h2 class="mb-4">Let's get in touch</h2>
-                    <form action="send_email" method="POST" autocomplete="off">
+                    <?php
+// Display success message if the form is successfully submitted
+if ($successMessage !== "") {
+    echo "<p>$successMessage</p>";
+}
+?>
+                    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" autocomplete="off">
                         <input type="text" placeholder="Name" name="name" class="form-control mb-2 " id="name" required>
                         <input type="mail" placeholder="Email" name="email" class="form-control mb-2 " id="name" required>
                         <input type="tel" placeholder="Phone No." name="phone" class="form-control mb-2 " id="name" required>
