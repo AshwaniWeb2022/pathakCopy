@@ -82,7 +82,7 @@ include 'header.php';
             <div class="col-lg-4">
                 <div class="contactForm">
                     <h2 class="mb-4">Let's get in touch</h2>
-                    <form action="send_email.php" method="post" autocomplete="off">
+                    <form action="send_email" method="post" autocomplete="off">
                         <input type="text" placeholder="Name" name="name" class="form-control mb-2 " id="name" required>
                         <input type="mail" placeholder="Email" name="email" class="form-control mb-2 " id="name" required>
                         <input type="tel" placeholder="Phone No." name="phone" class="form-control mb-2 " id="name" required>
