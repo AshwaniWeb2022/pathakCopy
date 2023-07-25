@@ -88,7 +88,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $message = $_POST["message"];
 
     // Construct email content
-    $to = "ashwani.kumar@codmsoftware.com"; // Replace with the recipient's email address
+    $to = "tusharpathak90@gmail.com"; // Replace with the recipient's email address
     $subject = "Contact Form from website ";
     $headers = "From: $name";
     $body = "Name: $name\n\n Email: $email\n\n Phone no: $phone\n\n Message: $message";

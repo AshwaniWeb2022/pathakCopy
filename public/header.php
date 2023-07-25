@@ -128,3 +128,14 @@
     </header>
     <!-- header main End -->
     <!-- header  -->
+
+
+    <script>
+        // for hamburger javascript 
+
+hamburger = document.querySelector(".hamburger");
+nav = document.querySelector("nav");
+hamburger.onclick = function() {
+    nav.classList.toggle("active");
+}
+    </script>
